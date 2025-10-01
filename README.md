@@ -1,6 +1,6 @@
 # AfricanAmericanLit
 
-mon texte 
+ This repository is part of a University project in Digital Humanities. 
 
 ## Premier Paragraphe 
 
