@@ -9,7 +9,8 @@ This project aims to study , within a prosopographical approach inspired by Bour
 
 
 ### Creation of Database
-1. conceptual model 
+1. conceptual model - [CONCEPTUAL methods unifr.pdf](https://github.com/user-attachments/files/22922389/CONCEPTUAL.methods.unifr.pdf)
+
 2. conceptual model commentary 
 3. logic/relational model 
 
