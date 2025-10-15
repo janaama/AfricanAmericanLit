@@ -9,7 +9,7 @@ This project aims to study, within a prosopographical approach inspired by Bourd
 
 
 ### Creation of Database
-1. conceptual model - (../)
+1. conceptual model - (../conceptual_map_1.png)
 
 3. conceptual model commentary 
 4. logic/relational model 
