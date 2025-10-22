@@ -28,13 +28,13 @@ Purpose: Prosopographical analysis of careers, networks, works, and recognition.
 
 - **name**, **period**, **notes** (optional).
 
-### Organization
+### Organisation
 
 - **name**, **type** (university, association, publisher, journal, etc.), **locatedIn** (Place, 1..1).
 
 ### Award
 
-- **name**, **category** (poetry/fiction/etc.), **grantingOrganization** (Organization, 1..1), **year**.
+- **name**, **category** (poetry/fiction/etc.), **grantingOrganisation** (Organisation, 1..1), **year**.
 
 ### Place
 
@@ -44,15 +44,15 @@ Purpose: Prosopographical analysis of careers, networks, works, and recognition.
 
 - **Writer —writes→ Work**: 1 writer writes 0..n works; each work has 1 main writer (co-authors modelled as additional Writer–Work links).
 - **Writer —member_of→ Movement**: 0..n ↔ 0..n (membership or strong affiliation).
-- **Writer —affiliated_with→ Organization**: 0..n ↔ 0..n (employment, editorial board, association).
+- **Writer —affiliated_with→ Organisation**: 0..n ↔ 0..n (employment, editorial board, association).
 - **Writer —received→ Award**: 0..n ↔ 0..n (awards to persons).
-- **Award —granted_by→ Organization**: 0..n awards granted by 1 organization.
+- **Award —granted_by→ Organisation**: 0..n awards granted by 1 organization.
 - **Writer —born_in→ Place**: 1 ↔ 1 (birth event location).
 - **Work —published_in→ Place**: 1 ↔ 1 (publication city).
-- **Organization —located_in→ Place**: 1 ↔ 1 (HQ or main location).
+- **Organisation —located_in→ Place**: 1 ↔ 1 (HQ or main location).
 
 ## Notes on Data Source and Coding
 
 - Primary source: Wikipedia biographies and list pages.
 - Record uncertainty: if an attribute is missing, leave null and keep a source note when possible.
-- Controlled vocabularies: use enumerations for `genre`, `organization.type`, `movement.name` where feasible.
+- Controlled vocabularies: use enumerations for `genre`, `organisation.type`, `movement.name` where feasible.
