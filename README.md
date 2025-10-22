@@ -11,6 +11,6 @@ Autre texte
 Vector source (.drawio): `Documentation/MCD_AfAm.drawio`  
 Image preview:  
 
-![MCD – African-American Writers](Documentation/MCD.png)
+![MCD – African-American Writers](Documentation/MCD_AfAm.png)
 
 See detailed semantics: [MCD documentation](Documentation/MCD_documentation.md)
