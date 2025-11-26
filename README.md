@@ -2,10 +2,6 @@
 
  This repository is part of a University project in Digital Humanities.
 
-## Conceptual  
-
-Autre texte
-
 ## Conceptual Model (Draft)
 
 Vector source (.drawio): `Documentation/MCD_AfAm.drawio`  
