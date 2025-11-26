@@ -1,6 +1,6 @@
 # IDEA: to explore the structuring of a literary field marked by struggles for social recognition, cultural and symbolic capital, and the historical conditions of production (slavery, segregation, civil rights movements)
 
-## The information available on Wikipedia generally includes:
+## The information available on Wikipedia generally includes
 
 1. educational and professional background
 
@@ -10,7 +10,7 @@
 
 4. main works published and their reception
 
-## Some possible research questions:
+## Some possible research questions
 
 1. What types of trajectories lead to literary recognition among African-American writers?
 
