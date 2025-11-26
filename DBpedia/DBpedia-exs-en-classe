@@ -1,4 +1,5 @@
-PREFIX dbr: <http://dbpedia.org/resource/>
+# test pratique
+
 PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT DISTINCT ?p ?o1
 WHERE {
@@ -8,3 +9,21 @@ WHERE {
 LIMIT 10
 
 <https://en.wikipedia.org/wiki/List_of_African-American_writers>
+
+effectif de la population:
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT (COUNT(*) as ?eff)
+WHERE {
+   dbr:List_of_African-American_writers ?p ?person.
+   ?person a dbo:Person;
+        dbo:birthDate ?birthDate.
+    BIND(xsd:integer(SUBSTR(STR(?birthDate), 1, 4)) AS ?birthYear)
+  }
+
+  result: 292
+
+
+
+
