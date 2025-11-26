@@ -1,0 +1,10 @@
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p ?o1
+WHERE {
+  dbr:List_of_African-American_writers ?p ?o1.
+  ?o1 a dbo:Person.
+  }
+LIMIT 10
+
+<https://en.wikipedia.org/wiki/List_of_African-American_writers>
