@@ -9,18 +9,18 @@ Purpose: Prosopographical analysis of careers, networks, works, and recognition.
 
 ### Writer
 
-- **name** (string): full name as used in Wikipedia page title.
+- **name**: full name as used in Wikipedia page title.
 - **birthDate** (date or year): ISO 8601 if available.
 - **birthPlace** (Place, 1..1): city/state/country at birth.
-- **gender** (string): as stated by the source.
-- **wikipediaLink** (url): canonical article URL.
-- **periodActive** (string or years): approximate active years.
+- **gender**: as stated by the source.
+- **wikipediaLink** (url): article URL.
+- **periodActive** (years): approximate active years.
 
 ### Work
 
-- **title** (string): work title.
+- **title**: work title.
 - **year** (year): publication year.
-- **genre** (enum): novel, poetry, essay, drama, etc.
+- **genre**: novel, poetry, essay, drama, etc.
 - **publicationPlace** (Place, 1..1): city/state/country.
 - **awards** (Award, 0..n): awards tied to this work (if specific).
 
@@ -38,12 +38,12 @@ Purpose: Prosopographical analysis of careers, networks, works, and recognition.
 
 ### Place
 
-- **city**, **state**, **country**, **geo** (lat/long optional).
+- **city**, **state**, **country**, **geo**.
 
 ## Relationships (Semantics & Cardinalities)
 
-- **Writer —writes→ Work**: 1 writer writes 0..n works; each work has 1 main writer (co-authors modelled as additional Writer–Work links).
-- **Writer —member_of→ Movement**: 0..n ↔ 0..n (membership or strong affiliation).
+- **Writer —writes→ Work**: 1 writer writes 0..n works; each work has 1 main writer (co-authors can be added as additional Writer–Work links).
+- **Writer —member_of→ Movement**: 0..n ↔ 0..n (membership or affiliation).
 - **Writer —affiliated_with→ Organisation**: 0..n ↔ 0..n (employment, editorial board, association).
 - **Writer —received→ Award**: 0..n ↔ 0..n (awards to persons).
 - **Award —granted_by→ Organisation**: 0..n awards granted by 1 organization.
@@ -54,5 +54,4 @@ Purpose: Prosopographical analysis of careers, networks, works, and recognition.
 ## Notes on Data Source and Coding
 
 - Primary source: Wikipedia biographies and list pages.
-- Record uncertainty: if an attribute is missing, leave null and keep a source note when possible.
-- Controlled vocabularies: use enumerations for `genre`, `organisation.type`, `movement.name` where feasible.
+- If an attribute is missing, leave null and keep a source note when possible.
