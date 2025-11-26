@@ -19,3 +19,5 @@
 3. Which networks, organizations, or movements (literary, political, academic) appear as key supports in their careers?
 
 4. Do we observe significant differences across generations of writers (e.g., before and after the 1960s)?
+
+5. What patterns can we observe in the education, affiliations, and recognition of African-American writers from 1900 to today?
