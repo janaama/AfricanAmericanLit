@@ -27,3 +27,53 @@ WHERE {
 
 
 
+DBpedia - 03.11.2025
+exercice 1: 
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?person ?object
+WHERE { 
+dbr:List_of_African-American_writers ?p ?person.
+?person a dbo:Person;
+        dbo:birthDate ?birthDate ;
+    owl:sameAs ?object.
+    BIND(xsd:integer(SUBSTR(STR(?birthDate), 1, 4)) AS ?birthYear)
+    FILTER ( ?birthYear > 1770 && CONTAINS(STR(?object), 'gnd'))
+}
+LIMIT 100
+
+
+COMPTER 
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?addr (COUNT(*) AS ?number)
+WHERE { 
+dbr:List_of_African-American_writers ?p ?person.
+?person a dbo:Person;
+        dbo:birthDate ?birthDate ;
+    owl:sameAs ?object.
+    BIND(xsd:integer(SUBSTR(STR(?birthDate), 1, 4)) AS ?birthYear)
+    FILTER ( ?birthYear > 1770)
+BIND(SUBSTR(STR(?object), 1, 20) as ?addr)
+}
+GROUP BY ?addr
+ORDER BY DESC(?number)
+
+GND 
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?person ?object
+WHERE { 
+dbr:List_of_African-American_writers ?p ?person.
+?person a dbo:Person;
+       
+    owl:sameAs ?object.
+    FILTER (  CONTAINS(STR(?object), 'gnd'))
+}
+LIMIT 400
+
