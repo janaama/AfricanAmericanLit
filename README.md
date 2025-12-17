@@ -4,7 +4,7 @@
 
 ## Conceptual Model (Draft)
 
-Vector source (.drawio): `Documentation/MCD_AfAm.drawio`  
+Vector source (.drawio): (Documentation/MCD_AfAm.drawio)
 Image preview:  
 
 ![MCD – African-American Writers](Documentation/MCD_AfAm.png)
