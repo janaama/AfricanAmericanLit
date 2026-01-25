@@ -1,6 +1,6 @@
-# Sujet: African-American writers (19th - 21st c.)
+# Subject: African-American writers (19th - 21st c.)
 
-## Objets (avec leurs propriétés)
+## Objects (with their properties - french to English)
 
 ### Personne (writer)
 
