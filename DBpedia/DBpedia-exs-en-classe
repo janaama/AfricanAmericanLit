@@ -1,4 +1,4 @@
-# test pratique
+Test pratique
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT DISTINCT ?p ?o1
