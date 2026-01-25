@@ -8,6 +8,6 @@
 
 ## Creation of the database
 
-* [Conceptual model](MCD_AfAM.png)
+* [Conceptual model](MCD_AfAm.png)
 * [Conceptual model - commentary](MCD_documentation.md)
 * [Relational model from conceptual model](Relational-Model.md)
