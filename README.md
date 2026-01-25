@@ -4,4 +4,4 @@
 
 ## Link to the table of contents
 
-[Table of contents](Table-of-contents.md)
+[Table of contents](Documentation/Table-of-contents.md)
