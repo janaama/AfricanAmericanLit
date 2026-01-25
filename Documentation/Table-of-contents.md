@@ -9,6 +9,7 @@
 ## Creation of the database
 
 * [Conceptual model](MCD_AfAm.png)
+* [Hand-drawn initial conceptual model] (Drawn_ConceptualMap.png)
 * [Conceptual model - commentary](MCD_documentation.md)
 * [Relational model from conceptual model](Relational-Model.md)
 
