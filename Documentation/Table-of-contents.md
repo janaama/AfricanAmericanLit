@@ -11,3 +11,8 @@
 * [Conceptual model](MCD_AfAm.png)
 * [Conceptual model - commentary](MCD_documentation.md)
 * [Relational model from conceptual model](Relational-Model.md)
+
+## Data retrieval and analysis
+
+* [Data import from DBpedia](DBpedia/DBpedia_importer_dans_base_personnelle.md)
+* [Data visualisation from DBpedia](DBpedia/DBpedia_analyser_donnees_importees.md)
