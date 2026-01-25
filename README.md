@@ -4,4 +4,4 @@
 
 ## Link to the table of contents
 
-[Table of contents](Documentation/MCD_documentation.md)
+[Table of contents](Table-of-contents.md)
