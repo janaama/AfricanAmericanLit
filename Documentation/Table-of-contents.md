@@ -16,5 +16,4 @@
 ## Data retrieval and analysis
 
 * [Data process in DBpedia](DBpedia/DBpedia-process.md)
-* [Data import from DBpedia](DBpedia/DBpedia_importer_dans_base_personnelle.md)
-* [Data visualisation from DBpedia](DBpedia/DBpedia_analyser_donnees_importees.md)
+* [Data import from DBpedia](Database/Database/name_and_organisation_202601272208.csv)
