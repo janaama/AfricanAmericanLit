@@ -15,5 +15,5 @@
 
 ## Data retrieval and analysis
 
-* [Data process in DBpedia](DBpedia/DBpedia-process.md)
-* [Data import from DBpedia](Database/Database/name_and_organisation_202601272208.csv)
+* [Data process in DBpedia](../DBpedia/DBpedia-process.md)
+* [Data import from DBpedia](../Database/name_and_organisation_202601272208.csv)
